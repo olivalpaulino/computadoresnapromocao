@@ -54,11 +54,27 @@ body {
     .card {
         width: calc(50% - 40px);
     }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .card {
         width: calc(100% - 40px);
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 14px;
     }
 }
 
